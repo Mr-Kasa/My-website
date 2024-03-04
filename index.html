@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buhle Kasa Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="index.css">
+         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:00,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="shortcut icon" type="x-icon" href="icon.png">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                 <img src="images/yellowish.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">  <!-- aria label since it will not have a name-->
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">    <!-- Double __ to indicate sub class-->
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#myServices" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong> Buhle Kasa</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+            <img src="https://img.freepik.com/free-vector/young-man-landscape-character-scene_24877-57891.jpg?w=740&t=st=1707907642~exp=1707908242~hmac=9f8694edfc118ed6976886416d6a41091ab186f5c76500de6873af0964a33f02" alt="A picture of Buhle Kasa smiling" class="introImg">
+        </section>
+        
+        
+         <!--Myservices -->
+        <section class="myServices" id="myServices">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">   <!---------------------------------Services--------------------------------->
+                  <!--the service class is called in each div-->
+                <div class="service">
+                    <h3>Testing & Development</h3>
+                    <p>Testing is essential for web development. A good test suite for a web application allows you to confidently build new features without breaking old ones and provides clear documentation for the rest of your team.
+
+                        A good test suite, however, requires smart design and proficiency with automated tools. These skills are so important to high quality software that many teams in the tech industry employ engineers dedicated to testing.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p> E-commerce development is a process of designing, creating, testing, and maintaining online stores. An eCommerce developer is responsible for the technical aspects of an online store, such as its performance, scalability, and security. In addition to these technical responsibilities, an eCommerce developer also often works closely with the store's owner or manager to ensure that the store meets their business needs.
+
+
+                        Building an online store can be a complex process, so it's important to choose an eCommerce platform that best suits your needs. Once you've selected a platform, an eCommerce developer can help you create a custom-designed store that reflects your brand and meets your customers' needs.
+                        
+                        
+                        If you're thinking of starting an online store them im the guy for you</p>                                  
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>JavaScript</h3>
+                    <p>Junior Developer
+                        I possess a foundational understanding of JavaScript. This website is a typical example of my Work</p>
+                </div> <!-- / service -->
+              
+            </div>
+             <!-----------------------/ services------------------------------>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+         <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer based out of Mount Frere</p>
+           <p class="section__subtitle section__subtitle--about"></p>
+           
+           <div class="about-me__body">
+              <p>Hi I am a Junior front end developer from Mount Frere. I specialise in web applications, Javascript and e-commerce sites</p>
+               <p>I am quick to adapt and i have a bit of experience working or  open source programmes</p>
+           </div>
+           
+           <img src="https://img.freepik.com/premium-vector/caucasian-bus-driver-sitting-steering-wheel_107173-9032.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.1.982021771.1706020096&semt=ais" alt="Buhle driving a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">    <!-------------------portfolio start------------------------>
+                <!-- Portfolio item 01 -->
+                
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-3581.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.1.982021771.1706020096&semt=sph" alt="" class="portfolio__img" >
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/coding-concept-illustration_114360-1155.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/programmer-working-flat-style_52683-15041.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1213.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/colored-isometric-programmers-composition-with-software-development-description-man-sit-work_1284-29045.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/hand-coding-concept-illustration_114360-8113.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.1.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.1.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item  10-->
+                <a href="portfolioItem.html" class="portfolio__item">
+                    <img src="https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2284.jpg?size=626&ext=jpg&uid=R135569131&ga=GA1.2.982021771.1706020096&semt=sph" alt="" class="portfolio__img">
+                </a>
+            </div>    <!------------------------portfolio end----------------------------------->
+        </section>
+        <!-- Footer -->
+        <footer>
+            <!-- replace with your own email address -->
+            <a href="BuhleKasa101@gmail.com" class="footer__link">BuhleKasa101@gmail.com</a>
+            <ul class="social-list">   <!------------SocialList start-------------------->
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                    <i class="fa-brands fa-codepen"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fa-brands fa-dribbble"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com"d>
+                    <i class="fa-brands fa-github"></i>
+                    </a></li>
+            </ul>   <!--------------------SocialList end--------------------------->
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
